@@ -10,7 +10,7 @@ RUN apt-get update \
 RUN pip install requests
 
 # Install fsociety
-RUN git clone https://github.com/Manisso/fsociety.git \
+RUN https://github.com/EinsteinPro/TOOLS-HACK.git
   && cd fsociety \
   && chmod +x install.sh \
   && ./install.sh
